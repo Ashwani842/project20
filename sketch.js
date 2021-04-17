@@ -10,13 +10,13 @@ var mouse2;
 var mouse3;
 function preload() {
     //load the images here
-    backimage=loadImage("images/garden.png");
-    cat1 = loadAnimation("images/cat1.png");
-    cat2 = loadAnimation("images/cat2.png","images/cat3.png");
-    cat3 = loadAnimation("images/cat4.png")
-    mouse1 = loadAnimation("images/mouse4.png");
-    mouse2 = loadAnimation("images/mouse3.png");
-    mouse3 = loadAnimation("images/mouse1.png")
+    backimage=loadImage("garden.png");
+    cat1 = loadAnimation("cat1.png");
+    cat2 = loadAnimation("cat2.png","cat3.png");
+    cat3 = loadAnimation("cat4.png")
+    mouse1 = loadAnimation("mouse4.png");
+    mouse2 = loadAnimation("mouse3.png");
+    mouse3 = loadAnimation("mouse1.png")
 }
 
 function setup(){
